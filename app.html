@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="my_app">
+       <div class="my_title">
+        <h1>App To Do List</h1>
+       </div>
+        <ul id="my-tasks">
+        </ul>
+       <div class="my_form">
+          Task Title: <input type="text" name="title" id="task_title"/>
+          <div>
+          Hours: <input type="number" name="hours" id="task_hours" min="1" max="12"/>
+          Min:   <input type="number" name="mins" id="task_mins" min="1" max="12"/>
+          </div>
+          <div>
+          Day: <input type="number" name="days" id="task_day" min="1" max="31"/>
+          Month: 
+          <select id="months">
+            <option value="0">January</option>
+            <option value="1">February</option>
+            <option value="2">March </option>
+            <option value="3">April </option>
+            <option value="4">May</option>
+            <option value="5">June</option>
+            <option value="6">July</option>
+            <option value="7">August </option>
+            <option value="8">September</option>
+            <option value="9">October</option>
+            <option value="10">November</option>
+            <option value="11">December </option>
+          </select>
+          Year: <input type="number" name="year" id="year" min="2024" max="2030"/>
+          <button id="add-btn">ADD task</button>
+          </div>
+       </div>
+       <div class="bottom">
+        <button class="allow_nofication">Allow nofication</button>
+       </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

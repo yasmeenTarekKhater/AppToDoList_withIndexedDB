@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+.my_app{
+    width: 500px;
+    margin: 20px auto;
+    border: 2px solid brown;
+}
+.my_title{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid brown;
+    background-color: burlywood;
+}
+.my_form{
+    width: 80%;
+    margin:  40px auto;
+    background-color: burlywood;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+.my_form input{
+    width: 20%;
+    margin-bottom: 10px;
+}
+.my_form .add-btn{
+    display: block;
+    margin:10px  auto;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid brown;
+    cursor: pointer;
+    background-color: transparent;
+    
+}
+.allow_nofication{
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid brown;
+    cursor: pointer;
+}
+.bottom{
+    width: 100%;
+    height: 40px;
+    background-color:burlywood;
+}
+#my-tasks{
+    margin:10px  auto;
+    width:80%;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: burlywood;
+}
+#my-tasks li{
+    position: relative;
+    border-bottom: 2px solid brown;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+#my-tasks li button{
+    position: absolute;
+    right: 0;
+}
+.completed {
+    text-decoration: line-through;
+}
